@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Reduslim</title>
+</head>
+<body class="body-bg">
+    <div class="container">
+        <!--bg-1-->
+        <div class="big-circle"></div>
+        
+        <div class="blocks">
+            <div class="block1">
+                
+                <h3 class="head-top">Reduslim</h3>
+                <div class="small-circle"></div>
+                <div class="bg-img"></div>
+                <h3 class="head-bottom">ECO</h3>
+            </div>
+            <div class="block2">
+                <div class="b2-top-bg">
+                    <h1 class="b2-head">Сделай шаг к выздоровлению</h1>
+                </div>
+                <div class="b2-bottom-bg">
+                    <form action="#" class="b2-form">
+                        <label for="name">Ваше <span class="green-name">имя</span></label>
+                        <input type="text" class="form-name" placeholder="Алексей">
+                        <label for="name">Ваш <span class="green-name">телефон</span></label>
+                        <input type="email" class="form-email" placeholder="+7 (123) 456 78-90">
+                        <select id="myDropdown">
+                            <option value="0"  selected="selected" data-imagesrc="./images/1024px-Flag_of_Russia.jpg">RU</option>
+                            <option value="1"  data-imagesrc="./images/britain-fl.jpg">EN</option>
+                        </select>
+                        <button type="button" class="button-b">Заказать<span></span></button>
+                    </form>
+                    <div class="footer">
+                        <p>Trusted</p>
+                        <div class="foot-icon"><img src="./images/lock.svg" alt="Lock"></div>
+                        <p>Secure</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/prashantchaudhary/ddslick/master/jquery.ddslick.min.js" ></script>
+    <script>
+
+        $('#myDropdown').ddslick({
+            imagePosition:"right",
+             
+
+        
+        });
+    </script>
+</body>
+</html>
