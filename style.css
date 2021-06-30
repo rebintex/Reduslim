@@ -844,7 +844,7 @@ border-top: none !important;
 
 }
 
-@media screen and (min-width: 578px) and (max-width: 768px) {
+@media screen and (min-width: 577px) and (max-width: 768px) {
     body {
         padding-bottom: 0;
     }
